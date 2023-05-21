@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cổng thông tin điện tử trường THPT Cao Bá Quát - Quốc Oai</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="https://www.cbqqo.edu.vn/images/default/logo.png" />
+
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <script src="https://kit.fontawesome.com/2264b9656f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" />
+
+        <!-- Lib css -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <link rel="stylesheet" href="./assets/css/grid.css" />
+        <link rel="stylesheet" href="./assets/css/base.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/responsive.css" />
+    </head>
+
+    <body>
+        <div id="fb-root"></div>
+        <script
+            async
+            defer
+            crossorigin="anonymous"
+            src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v16.0&appId=923722178933059&autoLogAppEvents=1"
+            nonce="XdDdDSzq"
+        ></script>
+        <div class="app">
+            <div class="back-to-top">
+                <a href="#"><i class="fa-regular fa-chevron-up"></i></a>
+            </div>
+
+            <!-- Header -->
+            <header id="header">
+                <div class="header-top">
+                    <div class="grid wide">
+                        <div class="container">
+                            <ul class="header-top__info-contact">
+                                <li><i class="fa-solid fa-link"></i>cbqqo.edu.vn</li>
+                                <li><i class="fa-solid fa-envelope"></i>c3caobaquat2@hanoiedu.vn</li>
+                                <li><i class="fa-solid fa-phone"></i>0962 848 869 - 024 33 946 636</li>
+                                <!--  - 024 39 957 506 -->
+                                <li class="header-top__language">
+                                    <i class="fa-light fa-globe"></i>
+                                    <a class="active" href="#">VN</a> |
+                                    <a href="#">EN</a>
+                                </li>
+                            </ul>
+                            <ul class="header-top__social">
+                                <li>
+                                    <a target="_blank" title="Facebook" href="https://www.facebook.com/c3caobaquat2">
+                                        <i class="fa-brands fa-square-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" title="Youtube" href="https://www.youtube.com/channel/UCF5vex4D4HNEEMngqtk0dFA">
+                                        <i class="fa-brands fa-square-youtube"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-mobile">
+                    <div class="grid wide">
+                        <div class="container">
+                            <div class="header-logo">
+                                <a href="index.html" class="header-logo__link">
+                                    <img src="https://www.cbqqo.edu.vn/images/default/logo.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="menu-mobile">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                            <div class="close-menu-mobile">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-nav">
+                    <div class="grid wide">
+                        <div class="container">
+                            <div class="header-logo">
+                                <a href="index.html" class="header-logo__link">
+                                    <img src="https://www.cbqqo.edu.vn/images/default/logo.png" alt="" />
+                                </a>
+                            </div>
+                            <nav class="nav-main">
+                                <ul class="main-menu">
+                                    <li class="main-menu__item">
+                                        <a href="#" class="main-menu__link">
+                                            GIỚI THIỆU
+                                            <i class="fa-solid fa-caret-down"></i>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li class="sub-menu__item"><a href="loi-ngo.html" class="sub-menu__link">Lời ngỏ</a></li>
+                                            <li class="sub-menu__item"><a href="lich-su-truong.html" class="sub-menu__link">Lịch sử trường</a></li>
+                                            <li class="sub-menu__item"><a href="danh-nhan.html" class="sub-menu__link">Danh nhân Cao Bá Quát</a></li>
+                                            <li class="sub-menu__item"><a href="ca-khuc.html" class="sub-menu__link">Ca khúc về trường</a></li>
+                                            <li class="sub-menu__item"><a href="to-chuc.html" class="sub-menu__link">Tổ chức trường</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-menu__item">
+                                        <a href="#" class="main-menu__link">
+                                            TIN TỨC
+                                            <i class="fa-solid fa-caret-down"></i>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li class="sub-menu__item"><a href="hoat-dong-giao-duc.html" class="sub-menu__link">Hoạt động giáo dục</a></li>
+                                            <li class="sub-menu__item"><a href="#" class="sub-menu__link">Văn hóa - Xã hội</a></li>
+                                            <li class="sub-menu__item"><a href="#" class="sub-menu__link">Giáo dục</a></li>
+                                            <li class="sub-menu__item"><a href="#" class="sub-menu__link">Khoa hoc - Công nghệ</a></li>
+                                            <li class="sub-menu__item"><a href="#" class="sub-menu__link">Kinh tế - Chính trị</a></li>
+                                            <li class="sub-menu__item"><a href="#" class="sub-menu__link">Thể Thao - Sức Khỏe</a></li>
+                                            <li class="sub-menu__item"><a href="#" class="sub-menu__link">Khác</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-menu__item">
+                                        <a href="#" class="main-menu__link">
+                                            THÔNG BÁO
+                                            <i class="fa-solid fa-caret-down"></i>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li class="sub-menu__item"><a href="thong-bao-nha-truong.html" class="sub-menu__link">Thông báo nhà trường</a></li>
+                                            <li class="sub-menu__item"><a href="#" class="sub-menu__link">Thực hiện 3 công khai</a></li>
+                                            <li class="sub-menu__item"><a href="#" class="sub-menu__link">Thông báo chi bộ</a></li>
+                                            <li class="sub-menu__item"><a href="#" class="sub-menu__link">Thông báo đoàn thể</a></li>
+                                            <li class="sub-menu__item"><a href="#" class="sub-menu__link">Thông báo tổ chuyên môn</a></li>
+                                            <li class="sub-menu__item"><a href="#" class="sub-menu__link">Tuyển dụng</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-menu__item"><a href="#" class="main-menu__link">THỜI KHÓA BIỂU</a></li>
+                                    <li class="main-menu__item">
+                                        <a href="#" class="main-menu__link">
+                                            HỌC LIỆU
+                                            <i class="fa-solid fa-caret-down"></i>
+                                        </a>
+                                        <div class="mega-menu">
+                                            <div class="grid wide">
+                                                <div class="mega-menu__container">
+                                                    <div class="row">
+                                                        <div class="col l-3 m-12 c-12">
+                                                            <div class="mega-menu__item">
+                                                                <span class="mega-menu__title">Đề thi và kiểm tra</span>
+                                                                <ul class="mega-menu__list">
+                                                                    <li><a href="thi-vao-10.html" class="mega-menu__link">Thi vào 10</a></li>
+                                                                    <li><a href="#" class="mega-menu__link">Khối 10</a></li>
+                                                                    <li><a href="#" class="mega-menu__link">Khối 11</a></li>
+                                                                    <li><a href="#" class="mega-menu__link">Khối 12</a></li>
+                                                                    <li><a href="#" class="mega-menu__link"> Thi THPT Quốc gia</a></li>
+                                                                    <li><a href="#" class="mega-menu__link"> Thi viên chức</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col l-3 m-12 c-12">
+                                                            <div class="mega-menu__item">
+                                                                <span class="mega-menu__title"> Tài liệu dạy và học </span>
+                                                                <ul class="mega-menu__list">
+                                                                    <li><a href="#" class="mega-menu__link">Sách</a></li>
+                                                                    <li><a href="#" class="mega-menu__link">Tài liệu trực tuyến</a></li>
+                                                                    <li><a href="#" class="mega-menu__link">Ebooks</a></li>
+                                                                    <li><a href="#" class="mega-menu__link">Slide Powerpoint</a></li>
+                                                                    <li><a href="#" class="mega-menu__link">Bài tập nâng cao</a></li>
+                                                                    <li><a href="#" class="mega-menu__link">Giáo án</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col l-2 m-12 c-12">
+                                                            <div class="mega-menu__item">
+                                                                <span class="mega-menu__title">Hình ảnh - Video</span>
+                                                                <ul class="mega-menu__list">
+                                                                    <li><a href="#" class="mega-menu__link">Ảnh</a></li>
+                                                                    <li><a href="#" class="mega-menu__link">Video</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col l-2 m-12 c-12">
+                                                            <div class="mega-menu__item">
+                                                                <span class="mega-menu__title">E-learning</span>
+                                                                <ul class="mega-menu__list">
+                                                                    <li><a href="#" class="mega-menu__link">Môn tự nhiên</a></li>
+                                                                    <li><a href="#" class="mega-menu__link">Môn xã hội</a></li>
+                                                                    <li><a href="#" class="mega-menu__link">Các môn khác</a></li>
+                                                                    <li><a href="#" class="mega-menu__link">Khối 10</a></li>
+                                                                    <li><a href="#" class="mega-menu__link">Khối 11</a></li>
+                                                                    <li><a href="#" class="mega-menu__link">Khối 12</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col l-2 m-12 c-12">
+                                                            <div class="mega-menu__item">
+                                                                <span class="mega-menu__title">Ứng dụng</span>
+                                                                <ul class="mega-menu__list">
+                                                                    <li><a href="#" class="mega-menu__link">Ứng dụng nên dùng</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="main-menu__item">
+                                        <a href="#" class="main-menu__link">
+                                            VĂN BẢN
+                                            <i class="fa-solid fa-caret-down"></i>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li class="sub-menu__item">
+                                                <a href="quyet-dinh.html" class="sub-menu__link">Quyết định</a>
+                                            </li>
+                                            <li class="sub-menu__item">
+                                                <a href="#" class="sub-menu__link">Kế hoạch</a>
+                                            </li>
+                                            <li class="sub-menu__item">
+                                                <a href="#" class="sub-menu__link">Công văn</a>
+                                            </li>
+                                            <li class="sub-menu__item">
+                                                <a href="#" class="sub-menu__link">Văn bản mẫu</a>
+                                            </li>
+                                            <li class="sub-menu__item">
+                                                <a href="#" class="sub-menu__link">Phổ biến giáo dục Pháp luật</a>
+                                            </li>
+                                            <li class="sub-menu__item">
+                                                <a href="#" class="sub-menu__link">Cải cách thủ tục hành chính</a>
+                                            </li>
+                                            <li class="sub-menu__item"><a href="#" class="sub-menu__link">Khác</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-menu__item"><a href="#" class="main-menu__link">EMAIL NỘI BỘ</a></li>
+                                    <li class="main-menu__item"><a href="lien-he.html" class="main-menu__link">LIÊN HỆ TRƯỜNG</a></li>
+                                    <li class="main-menu__item">
+                                        <a href="login.html" class="main-menu__link login-page-link">
+                                            <i class="fa-solid fa-user"></i>
+                                            <span>ĐĂNG NHẬP</span>
+                                            <i class="fa-solid fa-caret-down"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="main">
+                <div class="bg-light">
+                    <div class="grid wide">
+                        <div class="page-header">
+                            <div class="container">
+                                <h3 class="title">
+                                    Giới thiệu
+                                    <span></span>
+                                </h3>
+                                <p>CỔNG THÔNG TIN ĐIỆN TỬ TRƯỜNG THPT CAO BÁ QUÁT - QUỐC OAI</p>
+                                <div class="breadcrumb">
+                                    <a href="index.html">Trang chủ</a>
+                                    <span>Danh nhân Cao Bá Quát</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white">
+                    <div class="grid wide">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col l-9 m-12 c-12">
+                                    <div class="page-content">
+                                        <h4 class="title-simple">Danh nhân Cao Bá Quát</h4>
+                                        <h2><b>Cao Bá Quát - nhà thơ lớn thế kỉ XIX</b></h2>
+                                        <p>
+                                            <b
+                                                >Cao Bá Quát (1808 - 1855) người làng Phú Thọ, Gia Lâm (nay thuộc Hà Nội), từ nhỏ đã nổi tiếng thông
+                                                minh, giỏi thơ văn. Trong thời gian làm quan, ông nhiều lần bị trách phạt, giáng chức, thậm chí chịu
+                                                tù ngục do tính tình thẳng thắn cương trực. Năm 1854, ông cùng bạn bè dựng cờ khởi nghĩa Mỹ Lương song
+                                                cuộc khởi nghĩa nhanh chóng bị thất bại, Cao Bá Quát cũng hy sinh. Mặc dù thơ văn Cao Bá Quát sau đó
+                                                bị cấm lưu hành, song nhiều tác phẩm vẫn được lưu truyền đến nay như Cao Chu Thần thi tập, Mẫu hiên
+                                                thi loại, v.v</b
+                                            >
+                                        </p>
+                                        <p>
+                                            Là nhà thơ xuất sắc của Việt Nam thế kỷ 19, Cao Bá Quát tự Chu Thần, hiệu Mẫn Hiên, Cúc Dương, quê làng
+                                            Phú Thọ, huyện Gia Lâm, tỉnh Bắc Ninh (nay thuộc Hà Nội). Cao Bá Quát cùng người anh song sinh là Cao Bá
+                                            Đạt nổi tiếng thông minh, học giỏi từ nhỏ. Thân sinh của hai ông là Cao Cửu Chiêu, một nhà nho hay chữ, có
+                                            ước vọng khi lớn lên, các con mình sẽ trở thành quan đại thần của triều đình nên lấy tên của hai học sĩ
+                                            đời Chu cũng là hai anh em sinh đôi để đặt tên cho hai con.
+                                        </p>
+                                        <p>
+                                            Ngay từ nhỏ, Cao Bá Quát đã có giọng văn hùng hồn, ý tứ mạnh mẽ, thể hiện ý chí của người tài hoa. Lưu
+                                            truyền rằng Cao Bá Quát thường nói: Trong thiên hạ có bốn bồ chữ, mình tôi chiếm hai bồ, anh tôi và bạn
+                                            tôi, Nguyễn Văn Siêu, chiếm một bồ, còn bồ thứ tư chia cho mọi kẻ khác. Khi theo học ở trường Bắc Ninh,
+                                            danh tiếng của Cao Bá Quát đã lừng lẫy.
+                                        </p>
+                                        <p>
+                                            Năm 1832, ông đi thi Hương, đỗ á Nguyên tại trường thi Hà Nội, sau đó vào kinh đô (Huế) thi Hội, nhưng thi
+                                            mãi không đỗ (truyền rằng do các quan chấm thi ghét ông kiêu ngạo nên đánh hỏng). Năm 1841, nhờ sự tiến cử
+                                            của quan tỉnh Bắc Ninh, Cao Bá Quát được vào kinh đô nhậm chức Hành Tẩu Bộ Lễ. Tuy làm quan, cuộc sống của
+                                            ông cũng hàn vi, không thay đổi.
+                                        </p>
+                                        <p>
+                                            Tháng 8-1841, ông được cử làm sơ khảo trường thi Thừa Thiên, thấy một số bài thi hay nhưng phạm húy. Ông
+                                            cùng người bạn lấy muội đèn chữa giúp. Việc bị phát giác, đáng lẽ ông bị xử chém, nhưng sau được xét lại
+                                            chỉ bị cách chức, bị tù ba năm, phát phối đi Đà Nẵng. Về sau nhân có Đào Tri Phủ đi sứ sang Indonesia, ông
+                                            được tha và được cử theo phái đoàn phụ tá công việc. Trở về nước, ông được khôi phục chức cũ, một thời
+                                            gian rồi bị thải. Năm 1847, Cao Bá Quát được gọi vào làm việc ở Viện Hàn Lâm, sưu tầm văn thơ. Hồi ấy,
+                                            Tùng Thiên Cộng lập ra Mạc Vân thi xã, được nhiều quan văn trong triều tham gia, hưởng ứng. Giai thoại kể
+                                            rằng có lần Cao Bá Quát được xem những bài thơ của “Mạc Vân thi xã” đã lắc đầu, bịt mũi ngâm:
+                                        </p>
+                                        <p>
+                                            “Ngán thay cái mũi vô duyên <br /><br />
+                                            Câu thơ thi xã con thuyền Nghệ An”
+                                        </p>
+                                        <p>
+                                            (vần thơ của thi xã như mùi tthuyền chở nước mắm Nghệ An). Hai vị công khanh Tùng Thiện Công, Tuy Lữ Công
+                                            chẳng những không giận vì thái độ của Cao Bá Quát mà còn nhún mình đến kết giao. Thấy nhà ông thanh bần,
+                                            hai vị còn giúp đỡ vật chất. Cảm kích thái độ của hai vị công khanh, Cao Bá Quát gia nhập Mạc Vân thi xã.
+                                            Trong thời gian này, ông đã xướng họa nhiều bài hay nổi tiếng, đến đỗi vua Tự Đức, một người giỏi và
+                                            chuộng văn chương phải khen ngợi văn tài của ông là một trong bốn tay cự phách của Mạc Vân thi xã:
+                                        </p>
+                                        <p>
+                                            “Văn như Siêu, Quát vô tiền Hán <br /><br />
+                                            Thi đáo Tùng, Tuy thất thánh Đường”
+                                        </p>
+                                        <p>
+                                            (Văn của Nguyễn Văn Siêu, Cao Bá Quát có thể hơn thời tiền Hán, thơ của Tùng Thiện Vương, Tuy Lữ Vương lấn
+                                            át ngay cả thơ đời thánh Đường). Còn người đương thời thì tôn gọi ông là Thánh Quát (cùng với Nguyễn Văn
+                                            Siêu là Thần Siêu, Thánh Quát). Vì hay châm biếm vua và triều đình nên ông bị đẩy khỏi kinh đô (1850) ra
+                                            làm giáo thụ ở Quốc Oai, Sơn Tây, một vùng heo hút, nghèo nàn.
+                                        </p>
+                                        <p>
+                                            Tại đây, chứng kiến những nỗi cơ cực của nhân dân, thông cảm với sự bất bình của đại chúng, ông đã bí mật
+                                            kết giao với nhiều bạn bè, dựng cờ khởi nghĩa ở đất Mỹ Lương (1854). Nghĩa quân lấy danh nghĩa phù Lê, tôn
+                                            Lê Duy Cự làm minh chủ, Cao Bá Quát làm quốc sư, chống lại triều đình. Song cuộc khởi nghĩa chỉ kéo dài
+                                            được mấy tháng thì bị dập tắt. Cao Bá Quát bị viên suất đội Đinh Thư Quang bắn chết giữa lúc ông đang ở
+                                            trận tiền. Nhà Nguyễn đã trả thù, tru di ba họ của ông. Các tác phẩm của ông đều bị cấm tàng trữ, thu hồi
+                                            và đốt hết.
+                                        </p>
+                                        <p>
+                                            Tuy nhiên, tác phẩm của Cao Bá Quát vẫn sống mãi trong lòng người. Những cố gắng sưu tầm sau này đã thu
+                                            thập được trên một nghìn bài thơ, phú bằng chữ Hán và chữ Nôm của ông. Thư viện Khoa học Xã hội Việt Nam
+                                            hiện có trên 12 tập mang tên Cao Chu Thần thi tập, Mẫu hiên thi loại, Cúc Đường thi thảo, v.v. Nhiều bài
+                                            thơ chữ Hán, thơ ca trù và bài phú Tài tử đa cùng của ông, được nhiều thế hệ thuộc lòng. Qua các sáng tác
+                                            đó, Cao Bá Quát hiện ra là một nhà thơ có bản lĩnh. Tâm hồn ông bao trùm thiên nhiên, gắn bó với quê hương
+                                            đất nước. Ông ca ngợi các anh hùng dân tộc: Phù Đổng Thiên vương, Trần Hưng Đạo, Lê Lợi; trân trọng các
+                                            nhà chữ sĩ Chu Văn An, Nguyễn Trãi. Ông cũng rất quan tâm đến phận của người lao động lầm than. Đặc biệt,
+                                            một số bài chứng tỏ ông có tầm nhìn xa rộng, khác với những nhà nho, nhà thơ đương thời. Ông phàn nàn về
+                                            lối học tứ chương “nhai văn nhá chữ”, ông cảm thấy cái nguy cơ xâm lược của bọn thực dân phương Tây (như
+                                            trong bài Hồng mao hỏa thuyền ca). Nổi bật lên là một niềm ưu ái lo đời, khắc khoải vì không có cách gì
+                                            làm cho thiên hạ thái bình:
+                                        </p>
+                                        <p>
+                                            Thái bình vô nhất lược,<br /><br />
+                                            Lộc lộc sĩ vi nho <br /><br />
+                                            (Không có khó gì cho thiên hạ thái bình, <br /><br>
+                                            Thẹn mình là anh nhà nho kém cỏi).
+                                        </p>
+                                        <p>
+                                            Trước đây, nhiều người cho rằng Cao Bá Quát là một người khinh bạc, kiêu ngạo và nhất là có giấc mộng đế
+                                            vương. Nhưng tác phẩm của ông, không hề thấy một tư tưởng hay một phong cách nào như thế ! Nói đến tình
+                                            quê hương, tình bè bạn, nghĩa vợ chồng, Cao Bá Quát lúc nào cũng chân tình tha thiết. Có những chuyện nói
+                                            ông xấc láo với Minh Mệnh, Tự Đức hay chửi bới bọn quan lại là “thượng hạ giai cẩu” v.v. Thực ra chỉ là
+                                            những hư cấu, mượn ông để đả kích bọn cầm quyền. Cả những câu thơ như “Ba hồi trống giục mồ cha kiếp v.v.”
+                                            Ba vòng dây sắt bước thì vương v.v. cũng đều là những câu chuyện gán ghép vì sẵn mối cảm tình với ông mà
+                                            tưởng tượng ra.
+                                        </p>
+                                        <p><b>Giáo sư văn học Ngọc Khánh</b></p>
+                                    </div>
+                                    <div class="share">
+                                        <h5>Chia sẻ bài viết này:</h5>
+                                        <div class="share-social">
+                                            <a href="#" class="share-link share-fb">
+                                                <img src="https://platform-cdn.sharethis.com/img/facebook.svg" alt="" />
+                                                <span>Share</span>
+                                            </a>
+                                            <a href="#" class="share-link share-tw">
+                                                <img src="https://platform-cdn.sharethis.com/img/twitter.svg" alt="" />
+                                                <span>Tweet</span>
+                                            </a>
+                                            <a href="#" class="share-link share-pin">
+                                                <img src="https://platform-cdn.sharethis.com/img/pinterest.svg" alt="" />
+                                                <span>Pin</span>
+                                            </a>
+                                            <a href="#" class="share-link share-mail">
+                                                <img src="https://platform-cdn.sharethis.com/img/email.svg" alt="" />
+                                                <span>Email</span>
+                                            </a>
+                                            <a href="#" class="share-link share-device">
+                                                <img src="https://platform-cdn.sharethis.com/img/facebook.svg" alt="" />
+                                                <span>Share</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="comment">
+                                        <h4 class="title-simple">Bình luận:</h4>
+                                        <div class="fb-comments" data-href="https://cbqhighschool.000webhostapp.com/" data-width="100%" data-numposts="5"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col l-3 m-12 c-12">
+                                    <aside>
+                                        <div class="widget no-box">
+                                            <h5 class="title widget__title">
+                                                Tìm kiếm
+                                                <span></span>
+                                            </h5>
+                                            <form class="form-group" action="">
+                                                <input type="text" class="form-group__input" placeholder="Tìm ..." required />
+                                                <button class="form-group__btn" type="submit">
+                                                    <i class="fa-regular fa-magnifying-glass"></i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                        <ul class="widget">
+                                            <h5 class="title widget__title">
+                                                Tin mới nhất
+                                                <span></span>
+                                            </h5>
+                                            <li class="widget__item">
+                                                <img src="https://cbqqo.edu.vn/storage/app/public/photos/9/23.05/6463176b8c34e.jpg" alt="" />
+                                                <div class="widget__content">
+                                                    <a href="#" class="widget__link">Bảng lương giáo viên và phụ cấp ưu đãi áp dụng từ 1/7/2023</a>
+                                                    <span class="widget__time">2023-05-16 12:41:10</span>
+                                                </div>
+                                            </li>
+                                            <li class="widget__item">
+                                                <img src="https://cbqqo.edu.vn/storage/app/public/photos/9/23.05/645e3a8bdd848.jpg" alt="" />
+                                                <div class="widget__content">
+                                                    <a href="#" class="widget__link"
+                                                        >Một số giải pháp giáo dục nhân cách học sinh thông qua công tác chủ nhiệm.</a
+                                                    >
+                                                    <span class="widget__time">2023-05-12 20:12:23</span>
+                                                </div>
+                                            </li>
+                                            <li class="widget__item">
+                                                <img src="https://cbqqo.edu.vn/storage/app/public/photos/9/23.05/645913c453018.jpg" alt="" />
+                                                <div class="widget__content">
+                                                    <a href="#" class="widget__link">Tháng 5 nhớ Bác - Học tập theo Bác!</a>
+                                                    <span class="widget__time">2023-05-08 22:23:33</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <ul class="widget category">
+                                            <h5 class="title widget__title">
+                                                Danh mục
+                                                <span></span>
+                                            </h5>
+                                            <li class="widget__item">
+                                                <a href="#" class="link-go">
+                                                    <i class="fa-regular fa-chevron-right"></i>
+                                                    Thông báo
+                                                    <span class="badge">4</span>
+                                                </a>
+                                            </li>
+                                            <li class="widget__item">
+                                                <a href="#" class="link-go">
+                                                    <i class="fa-regular fa-chevron-right"></i>
+                                                    Tin giáo dục
+                                                    <span class="badge">7</span>
+                                                </a>
+                                            </li>
+                                            <li class="widget__item">
+                                                <a href="#" class="link-go">
+                                                    <i class="fa-regular fa-chevron-right"></i>
+                                                    Tin CNTT
+                                                    <span class="badge">2</span>
+                                                </a>
+                                            </li>
+                                            <li class="widget__item">
+                                                <a href="#" class="link-go">
+                                                    <i class="fa-regular fa-chevron-right"></i>
+                                                    Thư viện ảnh
+                                                    <span class="badge">3</span>
+                                                </a>
+                                            </li>
+                                            <li class="widget__item">
+                                                <a href="#" class="link-go">
+                                                    <i class="fa-regular fa-chevron-right"></i>
+                                                    Thư viện video
+                                                    <span class="badge">1</span>
+                                                </a>
+                                            </li>
+                                            <li class="widget__item">
+                                                <a href="#" class="link-go">
+                                                    <i class="fa-regular fa-chevron-right"></i>
+                                                    Thư viện đề thi
+                                                    <span class="badge">8</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </aside>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer id="footer">
+                <div class="main-footer">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="col l-6 m-6 c-12">
+                                <a href="index.html" class="footer-logo">
+                                    <img src="https://www.cbqqo.edu.vn/images/default/logo.png" alt="" />
+                                    <p>Cổng Thông tin điện tử Trường THPT Cao Bá Quát-Quốc Oai</p>
+                                </a>
+                            </div>
+
+                            <div class="col l-6 m-6 c-12">
+                                <div class="footer-count">
+                                    <p>Thống kê mới:</p>
+                                    <ul class="count-list">
+                                        <li class="count-item">
+                                            <span class="count-number">1593</span>
+                                            <span class="count-title">Học sinh</span>
+                                        </li>
+                                        <li class="count-item">
+                                            <span class="count-number">65</span>
+                                            <span class="count-title">CBNV</span>
+                                        </li>
+                                        <li class="count-item">
+                                            <span class="count-number">36</span>
+                                            <span class="count-title">Lớp</span>
+                                        </li>
+                                        <li class="count-item">
+                                            <span class="count-number">100%</span>
+                                            <span class="count-title">Tốt nghiệp THPT</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line-color-ec"></div>
+                        <div class="row">
+                            <div class="col l-3 m-6 c-12">
+                                <div class="footer-sup">
+                                    <h6 class="footer-title title">
+                                        Trợ giúp
+                                        <span></span>
+                                    </h6>
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="link-go"><i class="fa-regular fa-chevron-right"></i>Tuyển dụng</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="link-go"><i class="fa-regular fa-chevron-right"></i>Liên hệ</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="link-go"><i class="fa-regular fa-chevron-right"></i>Diễn đàn</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col l-4 m-6 c-12">
+                                <div class="footer-form">
+                                    <h6 class="footer-title title">
+                                        Đăng ký nhận thông tin
+                                        <span></span>
+                                    </h6>
+                                    <form class="form-group mb-40" action="">
+                                        <input type="email" class="form-group__input" placeholder="Nhập địa chỉ email ..." required />
+                                        <button class="form-group__btn" type="submit">
+                                            <i class="fa-regular fa-magnifying-glass"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                                <p class="visitor">Số người đang truy cập: 1</p>
+                                <p class="visitor">Tổng lượt truy cập: 330646</p>
+                            </div>
+
+                            <div class="col l-5 m-12 c-12">
+                                <div class="footer-map">
+                                    <iframe
+                                        src="https://www.google.com/maps/d/u/0/embed?mid=14RCMDBM96l3q3tZv4WznYI6oSzvl318&amp;ehbc=2E312F"
+                                        width="300"
+                                        height="220"
+                                        frameborder="0"
+                                    ></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copy-right">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="col l-6 m-6 c-12">
+                                <p><b>Đơn vị chủ quản: </b>Sở Giáo dục và Đào tạo Hà Nội</p>
+                                <p><b>Chịu trách nhiệm chính: </b>Ông Nguyễn Danh Chiến - Hiệu trưởng</p>
+                            </div>
+                            <div class="col l-6 m-6 c-12">
+                                <p>© Copyright 2019. All Rights Reserved. | By <a href="#">ATS.,JSC</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
