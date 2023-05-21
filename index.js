@@ -1,3 +1,4 @@
+// 
 // Mobile menu
 const main = document.querySelector(".main");
 const footer = document.querySelector("#footer");
