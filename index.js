@@ -1,35 +1,49 @@
-// 
-// Mobile menu
-const main = document.querySelector(".main");
-const footer = document.querySelector("#footer");
-const headerMobi = document.querySelector(".header-mobile");
-const menuMobiBtn = document.querySelector(".menu-mobile");
-const closeMenuMobiBtn = document.querySelector(".close-menu-mobile");
+// Timer
+const currentTime = () => {
+    const time = document.querySelector(".time");
 
-menuMobiBtn.addEventListener("click", () => {
-    headerMobi.classList.add("active");
-})
+    let date = new Date();
+    let dayOfWeek = date.getDay();
+    let dayVI;
+    let dateOfMonth = date.getDate();
+    let month = date.getMonth() + 1;
+    let year = date.getFullYear();
+    let hh = date.getHours();
+    let mm = date.getMinutes();
+    let ss = date.getSeconds();
 
-function closeMenu() {
-    headerMobi.classList.remove("active");
-}
+    dateOfMonth = dateOfMonth < 10 ? `0${dateOfMonth}` : dateOfMonth;
+    month = month < 10 ? `0${month}` : month;
+    hh = hh < 10 ? `0${hh}` : hh;
+    mm = mm < 10 ? `0${mm}` : mm;
+    ss = ss < 10 ? `0${ss}` : ss;
 
-closeMenuMobiBtn.addEventListener("click", closeMenu);
-main.addEventListener("click", closeMenu);
-footer.addEventListener("click", closeMenu);
+    switch (dayOfWeek) {
+        case 0:
+            dayVI = "Chủ Nhật";
+            break;
+        case 1:
+            dayVI = "Thứ Hai";
+            break;
+        case 2:
+            dayVI = "Thứ Ba";
+            break;
+        case 3:
+            dayVI = "Thứ Tư";
+            break;
+        case 4:
+            dayVI = "Thứ Năm";
+            break;
+        case 5:
+            dayVI = "Thứ Sáu";
+            break;
+        case 6:
+            dayVI = "Thứ Bảy";
+            break;
+    }
 
+    time.innerText = `${dayVI}, ${dateOfMonth}/${month}/${year} ${hh}:${mm}:${ss}`;
+};
 
-// Form
-const form = document.querySelector(".form-wrapper");
-const signUpLink = document.querySelector(".sign-up-link");
-const loginLink = document.querySelector(".login-link");
-
-signUpLink.addEventListener("click", () => {
-    form.classList.add("sign-up");
-});
-
-loginLink.addEventListener("click", () => {
-    form.classList.remove("sign-up");
-});
-
-
+currentTime();
+setInterval(currentTime, 1000);
